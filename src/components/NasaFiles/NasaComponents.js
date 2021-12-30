@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import NasaItem from "./NasaItem";
+
 import NasaList from "./NasaList";
 
 const API_KEY = "ZldqG22JYDiIcUn1zmsWTATk46A1ZuRGqEbGByPd";

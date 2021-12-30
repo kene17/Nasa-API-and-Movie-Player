@@ -1,11 +1,12 @@
 import React from 'react'
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
+import IMDBComponents from '../components/IMDBFiles/IMDBComponents';
 const IMDB = () => {
     return (
         <section>
         <h1>welcome page</h1>
         <Route path="/imdb">
-            <p>Welcome, new movie user</p>
+            <IMDBComponents />
         </Route>
             
         </section>
