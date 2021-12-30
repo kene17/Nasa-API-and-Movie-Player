@@ -1,0 +1,50 @@
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+body {
+    height: 125vh;
+    background-color: hsla(50, 33%, 25%, .75);
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color:#818779;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    /* vertically align our items in the nav-bar using align-items: center */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+header *{
+    display: inline;
+}
+
+/* However, all the links in the nav-bar are very squished together - we can space them out more by giving them a margin property: */
+header li{
+    margin: 20px
+}
+header li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.header a:hover,
+  .header a:active,
+  .header a.active {
+    color: #95bcf0;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #95bcf0;
+  }
